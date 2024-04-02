@@ -4,11 +4,11 @@ version = "1.0.1"
 description = "An integration package connecting Google's genai package and LangChain"
 authors = []
 readme = "README.md"
-repository = "https://github.com/langchain-ai/langchain-google"
+repository = "https://github.com/Hunter71/langchain-google"
 license = "MIT"
 
 [tool.poetry.urls]
-"Source Code" = "https://github.com/langchain-ai/langchain-google/tree/main/libs/genai"
+"Source Code" = "https://github.com/Hunter71/langchain-google/tree/main/libs/genai"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
@@ -77,7 +77,7 @@ select = [
 disallow_untyped_defs = "True"
 
 [tool.coverage.run]
-omit = ["tests/*"]
+omit = ["libs/genai/tests/*"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
